@@ -182,7 +182,7 @@ class Trello():
     
     # Get all the cards from the board_id, no refurbishments
     def _raw_df_cards(self):
-        url = f'{self.API_BASE_URL}/boards/{self.board_id}/cards'
+        url = https://api.trello.com/1/boards/{self.board_id}/cards'
         response = self.session.get(url)
         if response.status_code == 200:
             data = response.json()
