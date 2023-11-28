@@ -144,7 +144,7 @@ class Trello():
     # Retrieve api_key.api_secret and api_base_url from .env file
     API_KEY = dotenv_values().get('API_KEY')
     API_TOKEN = dotenv_values().get('API_TOKEN')
-    API_BASE_URL = dotenv_values().get('API_BASE_URL')
+    API_BASE_URL = https://api.trello.com/1
 
     # other constants 
     LABELS_TO_CHECK = ['GTM', 'GA4', 'PREZ', 'SUPPORT', 'LOOKER STUDIO', 'PRESTA', 'INTERNE', 'PDM', 'PRIVACY','DEVIS','META','MEDIAGENIUS','R&D','GADS','TIKTOK']
